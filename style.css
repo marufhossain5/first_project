@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  font-family: "Work Sans";
+}
+/* start of heading */
+.header {
+  background-image: url(/images/banner/banner3.png);
+  height: 808px;
+  opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  text-align: right;
+}
+.banner-heading {
+  padding: 216px 230px 0px 845px;
+  font-weight: 700px;
+  font-size: 65px;
+  line-height: 76px;
+  color: #ffffff;
+}
+
+.banner-text {
+  padding: 24px 230px 0 876px;
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.btn-primary {
+  margin: 32px 230px 0 876px;
+  width: 160px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005fac;
+}
+/*end of heading section*/
+
+/*start of main section*/
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 129px 0 0 0;
+}
+.main-lists {
+  margin: 246px 0 0 -300px;
+  list-style-type: none;
+}
+span {
+  color: #16d887;
+}
+.main-heading {
+  font-size: 40px;
+}
+.main-text {
+  padding: 24px 0 16px 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.main-line-height {
+  line-height: 2.5;
+}
+.main-plans {
+  margin-top: 138px;
+  justify-items: center;
+}
+.main-heading-plans {
+  font-size: 40px;
+  text-align: center;
+}
+.main-plan-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*end of main css*/
+
+/*start of planing section*/
+.plan-lists {
+  list-style-type: none;
+  padding-top: 50px;
+}
+.plan-lists-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-lists-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+.plan-lists-text {
+  padding-top: 16px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/*end of planning*/
+
+/*card section*/
+.main-card {
+  margin: 130px auto;
+  width: 1140px;
+  height: 300px;
+  background-image: linear-gradient(to right, #005fac, rgba(0, 95, 172, 0)),
+    url(/images/watch.png);
+  background-repeat: no-repeat;
+}
+.main-card-heading {
+  padding: 59px 617px 24px 64px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.main-card-btn {
+  margin: 0 617px 24px 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #005fac;
+  width: 160px;
+  height: 64px;
+}
+
+/*end of card*/
+
+/*start of footer*/
+.footer {
+  background-color: #151414;
+  height: 577px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-heading {
+  width: 148px;
+  height: 53px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #f8f8f8;
+}
+
+.footer-text {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-mail {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-phone {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-social {
+  padding-top: 32px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -320px;
+}
+.footer-img-twitter {
+  padding-left: 17px;
+}
+.footer-img-yt {
+  padding-left: 17px;
+}
+.footer-btn {
+  width: 170.11px;
+  height: 64px;
+  background: #005fac;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-heading-two {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footer-info {
+  margin-top: 130px;
+}
+.footer-sub {
+  margin-top: 130px;
+}
+.footer-input {
+  margin-top: 31px;
+  width: 325px;
+  height: 64px;
+  background-color: #151414;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.footer-btn {
+  display: list-item;
+  list-style-type: none;
+  margin-top: 16px;
+  width: 170.11px;
+  height: 64px;
+  background: #005fac;
+  border-radius: 8px;
+  border: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+/*end of css given tamplate task css*/
+
+/*login form */
+.login-page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4caf50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+/*end of form css*/
